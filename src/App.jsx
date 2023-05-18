@@ -1,7 +1,12 @@
 import "./App.css";
+import Body from "./assets/components/Body/Body";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Body />
+    </>
+  );
 }
 
 export default App;
