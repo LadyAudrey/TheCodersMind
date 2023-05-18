@@ -1,0 +1,6 @@
+.main-body {
+    background-color: var(--4-blue);
+    color: var(--1-orange);
+    height: 100%;
+    width: 100%;
+}
