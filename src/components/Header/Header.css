@@ -1,0 +1,21 @@
+#header {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    background-color: var(--4-green);
+    color: var(--1-orange);
+    border-bottom: var(--1-blue) 1vh solid;
+}
+
+#header-logo {
+    grid-column: 1;
+    height: 10vh;
+    width: auto;
+    margin: auto;
+}
+
+h1, #greeting {
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto;
+}

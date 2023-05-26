@@ -69,17 +69,38 @@ table {
   --3-yellow: rgba(128, 90, 21,1);
   --4-yellow: rgba( 85, 55,  0,1);
 
-  --0-orange: rgba(170, 98, 57,1);
-  --1-orange: rgba(255, 201,170,1);
-  --2-orange: rgba(212,145,106,1);
+  --0-orange: rgba(255, 201,170,1);
+  --1-orange: rgba(212,145,106,1);
+  --2-orange: rgba(170, 98, 57,1);
   --3-orange: rgba(128, 60,21,1);
   --4-orange: rgba(85, 31, 0, 1);
   --5-orange: rgba(91, 36, 5, 1);
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 5vh;
+  padding: 5vh;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-size: 5vh;
+  padding: 5vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 15vw 85vw;
+  grid-template-rows: 15vh 85vh;
+}
+
+.logo {
+  height: 10vh;
 }

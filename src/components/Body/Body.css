@@ -1,6 +1,59 @@
 .main-body {
-    background-color: var(--4-blue);
-    color: var(--1-orange);
-    height: 100%;
-    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 2;
+    background-color: var(--3-blue);
+    color: var(--1-yellow);
+}
+
+nav {
+    grid-column: 1;
+    height: 85vh;
+    background-color: var(--4-orange);
+    color: var(--1-yellow);
+    border-right: var(--1-blue) 1vh solid;
+}
+
+#content {
+    grid-column: 2;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 45vh 45vh;
+    row-gap: 5vh;
+    overflow: scroll;
+}
+
+h2 {
+    grid-column: 2;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-indent: 5vh;
+    word-spacing: 1vh;
+    padding: 5vh;
+    margin: 5vh;
+    line-height: 2;
+    margin: 10vh auto;
+}
+
+.content-img {
+    height: 60vh;
+    border: var(--3-green) 5px solid;
+    margin: 10vh auto;
+}
+
+.content-left {
+    grid-column: 1;
+    height: 70vh;
+}
+
+.content-right {
+    grid-column: 2;
+    height: 70vh;
 }
